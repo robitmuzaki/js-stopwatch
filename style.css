@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ebccff;
+    color: #2e004d;
+}
+h1 {
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.numbers {
+    font-size: 45px;
+    margin-bottom: 40px;
+}   
+button {
+    padding: 12px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    margin: 13px;
+    cursor: pointer;
+    color: #fff;
+    background: #2e004d;
+    transition: all 0.3s ease-in-out;
+}
+button#start {
+    background: green;
+}
+button#stop {
+    background: red;
+}
+button#reset {
+    background: orange;
+}
+button#start:hover {
+    background: rgb(125, 255, 125);
+    color: #2e004d;
+}
+button#stop:hover {
+    background: rgb(255, 170, 170);
+    color: #2e004d;
+}
+button#reset:hover {
+    background: rgb(255, 218, 150);
+    color: #2e004d;
+}
